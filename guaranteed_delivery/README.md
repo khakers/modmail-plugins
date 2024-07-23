@@ -5,9 +5,9 @@ Keeps your modmail bot from losing user messages during downtime. If any message
 ## Installation
 `{prefix}plugin add khakers/modmail-plugins/guaranteed_delivery@main`
 
-The plugin will automatically begin
+The plugin will automatically begin recording the last processed message once added.
 
 ## Caveats
 - Only the next 15 messages after the last processed message are retrieved, so its still possible some messages are missed if a large number have been sent
-- Staff replies are not currently handled (anything in )
+- Staff replies are not currently handled (anything in the server channel)
 - Only existing threads are currently covered by guaranteed delivery. This means that any DMs to the bot from users that do not have an existing thread will not create one upon start.

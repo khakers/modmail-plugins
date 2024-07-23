@@ -3,7 +3,7 @@
 Keeps your modmail bot from losing user messages during downtime. If any messages have been sent after since the last process message, the pugin will ensure they are all sent through modmail upon the bot coming online. 
 
 ## Installation
-`{prefix}plugin add khakers/modmail-plugins/guaranteed_delivery`
+`{prefix}plugin add khakers/modmail-plugins/guaranteed_delivery@main`
 
 The plugin will automatically begin
 
